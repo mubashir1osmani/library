@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://cdnjs.cloudflare.com; script-src 'self';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
     <title>مكتبة الحق</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -20,6 +23,35 @@
             </ul>
         </nav>
     </header>
+
+    <main class="main-content">
+        <section id="home" class="hero">
+            <h2>أهلا بكم في مكتبة الحق</h2>
+            <p>مصدركم الأول للكتب والمراجع القيمة في مختلف المجالات</p>
+            <p>استكشف مجموعتنا المتنوعة من الكتب في الفلسفة والأدب والعلوم وغيرها</p>
+        </section>
+        
+        <section id="featured" class="featured-books">
+            <div class="book-card">
+                <i class="fas fa-book fa-3x"></i>
+                <h3>كتاب الفلسفة</h3>
+                <p>مقدمة في علم الفلسفة وتاريخها</p>
+                <a href="books/philosophy.html" class="book-link">اقرأ المزيد</a>
+            </div>
+            <div class="book-card">
+                <i class="fas fa-book fa-3x"></i>
+                <h3>الأدب العربي</h3>
+                <p>دراسة شاملة في الأدب العربي القديم والحديث</p>
+                <a href="books/literature.html" class="book-link">اقرأ المزيد</a>
+            </div>
+            <div class="book-card">
+                <i class="fas fa-book fa-3x"></i>
+                <h3>علم الفلك</h3>
+                <p>كتاب يستكشف أسرار الكون والنجوم</p>
+                <a href="books/astronomy.html" class="book-link">اقرأ المزيد</a>
+            </div>
+        </section>
+    </main>
     <script src="js/main.js"></script>
 </body>
 </html>
