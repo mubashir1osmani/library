@@ -1,0 +1,31 @@
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif; /* Font style */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center; /* Center the title */
+    color: #333; /* Dark gray color for the title */
+    margin-top: 50px; /* Space above the title */
+}
+
+nav {
+    background-color: #333; /* Dark background for the navigation bar */
+    overflow: hidden; /* Clear floats */
+}
+
+nav a {
+    float: left; /* Align links to the left */
+    display: block; /* Make links block elements */
+    color: white; /* White text color */
+    text-align: center; /* Center text in links */
+    padding: 14px 16px; /* Padding for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+nav a:hover {
+    background-color: #ddd; /* Light gray background on hover */
+    color: black; /* Black text color on hover */
+}
